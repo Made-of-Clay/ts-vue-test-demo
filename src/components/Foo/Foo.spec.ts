@@ -14,8 +14,6 @@ describe('Foo Component', () => {
             },
         });
         expect(wrapper.find('strong').text()).toBe('foo');
-        // 16:20-19:17 (1360-1370 BC)
-        // cursed x3 - cursed by Yahweh
     });
     it('should add dark theme class when dark prop is true', () => {
         const wrapper = mount(Foo, {
