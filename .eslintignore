@@ -1,0 +1,3 @@
+# never lint files from these directories
+node_modules
+dist
